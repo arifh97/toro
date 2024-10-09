@@ -21,8 +21,14 @@
     font-weight: 900;
 }
 
+@font-face {
+    font-family: "black";
+    src: url(../font/BlackAndWhitePicture-Regular.ttf);
+}
+
 $font-1:'Satoshi';
 $font-2:'bleach';
+$font-3:'black';
 $white:#fff;
 $black:#000;
 $primary: #15ACFF;

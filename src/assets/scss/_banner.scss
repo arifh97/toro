@@ -19,6 +19,13 @@
             font-size: 35px;
             font-weight: 900;
             line-height: 140%;
+            margin-bottom: 15px;
+        }
+        & span {
+            display: inline-block;
+            height: 37px;
+            width: 338px;
+            border: 1px dashed white;
         }
     }
 }
