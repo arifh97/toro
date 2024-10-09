@@ -7,7 +7,7 @@ export default function Galary() {
     <div className='galary mb-8 lg:mb-10'>
         <Container>
             <Row>
-                <Col xs={12} md={6} lg={8}>
+                <Col xs={12} md={6} lg={8} className='mb-5 md:mb-0'>
                     <div className="galary-left w-full  border-white border-[2px] lg:border-[3] xl:border-[5px] "> <img  className='w-full h-full object-cover ' src={Img} alt="" /></div>
                 </Col>
                 <Col xs={12} md={6} lg={4}>

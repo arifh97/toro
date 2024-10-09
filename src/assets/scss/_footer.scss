@@ -1,6 +1,18 @@
 .footer {
     padding-top: 100px;
     padding-bottom: 300px;
+    @include lg{
+        padding-top: 80px;
+        padding-bottom: 200px;
+    }
+    @include md{
+        padding-top: 70px;
+        padding-bottom: 150px;
+    }
+    @include sm{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 
     .container {
         max-width: 1410px;
@@ -12,25 +24,93 @@
         background: rgba(255, 255, 255, 0.03);
         box-shadow: 0px 4px 30px 0px rgba(255, 255, 255, 0.25) inset;
         padding: 70px 40px;
-
     }
 
-    &-img {}
+    &-img {
+        width: 294px;
+        height: 527px;
+        @include lg{
+            width: 294px;
+            height: 527px;
+        }
+        @include md{
+            width: 250px;
+            height: 400px;
+            // width: 100%;
+            // height: 100%;
+        }
+        @include sm{
+            width: 250px;
+            height: 400px;
+        }
+    }
 }
 
 .galary {
     &-left {
         background: url(<path-to-image>) lightgray 50% / cover no-repeat;
         height: 592px;
+        @include xl{
+            height: 475px;
+        }
+        @include lg{
+            height: 395px;
+        }
+        @include mmd{
+            height: 375px;
+        }
+        @include sm{
+            height: 464px;
+        }
+
     }
     &-right{
         background: url(<path-to-image>) lightgray 50% / cover no-repeat;
         height: 606px;
+        @include xl{
+            height: 475px;
+        }
+        @include lg{
+            height: 395px;
+        }
+        @include mmd{
+            height: 375px;
+        }
+        @include sm{
+            height: 464px;
+        }
     }
 }
 .galary2{
+    &-left{
+        height: 603px;
+        @include xl{
+            height: 475px;
+        }
+        @include lg{
+            height: 395px;
+        }
+        @include mmd{
+            height: 375px;
+        }
+        @include sm{
+            height: 464px;
+        }
+    }
     &-right{
-       
+        height: 592px;
+        @include xl{
+            height: 475px;
+        }
+        @include lg{
+            height: 395px;
+        }
+        @include mmd{
+            height: 375px;
+        }
+        @include sm{
+            height: 464px;
+        }
         button{
             display: none;
 

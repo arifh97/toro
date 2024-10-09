@@ -22,14 +22,14 @@ export default function Galary() {
     <div className='galary2'>
       <Container>
         <Row> 
-          <Col xs={12} md={6} lg={4}>
-            <div className="galary-left w-full h-[603px] border-white border-[2px] lg:border-[3] xl:border-[5px]"> 
+          <Col xs={12} md={5} lg={4} className='mb-5 md:mb-0'>
+            <div className="galary2-left w-full  border-white border-[2px] lg:border-[3] xl:border-[5px]"> 
               <img className='w-full h-full object-cover' src={Img} alt="Gallery" />
             </div>
           </Col>
 
-          <Col xs={12} md={6} lg={8}>
-            <div className="relative z-[1] galary2-right w-full h-[592px] border-white border-[2px] lg:border-[3] xl:border-[5px]">
+          <Col xs={12} md={7} lg={8}>
+            <div className="relative z-[1] galary2-right w-full border-white border-[2px] lg:border-[3] xl:border-[5px]">
               <video ref={videoRef} loop src={videos} className="w-full h-full object-cover"></video>
               <button
                 onClick={handleVideoPlay}
