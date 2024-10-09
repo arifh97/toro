@@ -28,3 +28,26 @@
         height: 606px;
     }
 }
+.galary2{
+    &-right{
+       
+        button{
+            display: none;
+
+            svg{
+                --width:108px;
+                width: var(--width);
+                height: var(--width);
+                @include mmd{
+                    --width:70px;
+                }
+
+            }
+        }
+        &:hover{
+           button{
+            display: block;
+           }
+        }
+    }
+}

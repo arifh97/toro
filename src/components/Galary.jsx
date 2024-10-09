@@ -8,10 +8,10 @@ export default function Galary() {
         <Container>
             <Row>
                 <Col xs={12} md={6} lg={8}>
-                    <div className="galary-left w-full  border-white border-[2px] lg:border-[3] xl:border-[5px] "> <img  className='w-full h-full' src={Img} alt="" /></div>
+                    <div className="galary-left w-full  border-white border-[2px] lg:border-[3] xl:border-[5px] "> <img  className='w-full h-full object-cover ' src={Img} alt="" /></div>
                 </Col>
                 <Col xs={12} md={6} lg={4}>
-                <div className="galary-right w-full  border-white border-[2px] lg:border-[3] xl:border-[5px] "> <img  className='w-full h-full' src={Img2} alt="" /></div>
+                <div className="galary-right w-full  border-white border-[2px] lg:border-[3] xl:border-[5px] "> <img  className='w-full h-full object-cover ' src={Img2} alt="" /></div>
                 </Col>
             </Row>
         </Container>
