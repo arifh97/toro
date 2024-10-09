@@ -5,7 +5,7 @@ export default function Banner() {
     <div className='banner relative'>
       <Container>
         <Row>
-          <Col xs={12} lg={6}>
+          <Col xs={12}>
             <div className="banner-content text-center">
               <h1>TORO INOUE</h1>
               <p>Contracts</p>

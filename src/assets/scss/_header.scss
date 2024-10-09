@@ -5,6 +5,12 @@
     transform: translateX(-50%);
     width: 100%;
     z-index: 99;
+    @include md {
+        top: 40px;
+    }
+    @include sm {
+        top: 20px;
+    }
     &-wrap {
         border-radius: 20px;
         border: 1px solid rgba(255, 255, 255, 0.16);
