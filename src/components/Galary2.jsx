@@ -23,7 +23,7 @@ export default function Galary() {
       <Container>
         <Row> 
           <Col xs={12} md={5} lg={4} className='mb-5 md:mb-0'>
-            <div className="galary2-left w-full  border-white border-[2px] lg:border-[3] xl:border-[5px]"> 
+            <div className="galary2-left w-full  border-white border-[2px] lg:border-[3] xl:border-[5px] object-cover"> 
               <img className='w-full h-full object-cover' src={Img} alt="Gallery" />
             </div>
           </Col>
