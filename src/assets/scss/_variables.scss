@@ -3,8 +3,26 @@
     src: url(../font/FontBleach.ttf);
 }
 
-$font-1:'bleach';
-$font-2:$font-1;
+@font-face {
+    font-family: 'Satoshi';
+    src: url(../font/Satoshi-Regular.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url(../font/Satoshi-Bold.woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url(../font/Satoshi-Black.woff);
+    font-weight: 900;
+}
+
+$font-1:'Satoshi';
+$font-2:'bleach';
 $white:#fff;
 $black:#000;
 $primary: #15ACFF;
