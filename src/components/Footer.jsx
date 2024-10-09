@@ -5,7 +5,10 @@ export default function Footer() {
     <div className='footer'>
       <Container>
         <Row>
-          <Col>Footer</Col>
+           <Col xs={12} md={6} lg={8}>
+           </Col>
+           <Col xs={12} md={6} lg={4}>
+           </Col>
         </Row>
       </Container>
     </div>
