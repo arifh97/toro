@@ -1,0 +1,27 @@
+.footer {
+    padding-top: 100px;
+    padding-bottom: 300px;
+    .container{
+        max-width: 1410px;
+    }
+    &-text {
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        background: rgba(255, 255, 255, 0.03);
+        box-shadow: 0px 4px 30px 0px rgba(255, 255, 255, 0.25) inset;
+        padding: 70px 40px;
+
+        p {
+            color: var(--Paragraph, #848E9C);
+            font-family: Satoshi;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 180%;
+            /* 39.6px */
+        }
+    }
+    &-img{
+
+    }
+}

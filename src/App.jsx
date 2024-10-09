@@ -8,8 +8,8 @@ export default function App() {
   return (
     <>
       <Header />
-      <Meet/>
       <Banner />
+      <Meet/>
       <About />
       <Footer />
       
