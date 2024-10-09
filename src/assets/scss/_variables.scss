@@ -1,5 +1,10 @@
-$font-1:'Roboto';
-$font-2:'poppins';
+@font-face {
+    font-family: 'bleach';
+    src: url(../font/FontBleach.ttf);
+}
+
+$font-1:'bleach';
+$font-2:$font-1;
 $white:#fff;
 $black:#000;
 $primary: #15ACFF;
