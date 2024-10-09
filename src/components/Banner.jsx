@@ -5,7 +5,9 @@ export default function Banner() {
     <div className='banner'>
       <Container>
         <Row>
-          <Col></Col>
+          <Col>
+            
+          </Col>
         </Row>
       </Container>
     </div>
