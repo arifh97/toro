@@ -8,7 +8,7 @@ export default function Banner() {
           <Col xs={12}>
             <div className="banner-content text-center">
               <h1>TORO INOUE</h1>
-              <p className='p'>Toro Inoue, also known as the Sony Cat, is an iconic character from the Doko Demo Issyo series and the unofficial mascot of Sony Interactive Entertainment in Japan.</p>
+              <p className='p'>Degen Toro Inoue (井上トロ), also known as Toro (トロ) and the Sony Cat, has one wish—to become human. In his latest adventure, he’s embraced his degenerate side on the blockchain, diving into the world of meme coins in a final attempt to achieve his dream.</p>
               <div className="token">
                 <p className='token-header'>Contracts</p>
                 <Token/>

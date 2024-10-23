@@ -52,13 +52,14 @@
             line-height: 140%;
             max-width: 540px;
             text-align: start;
+            margin-bottom: 34px;
         }
         & h1 {
             color: #FFF;
             font-size: 100px;
             font-weight: 400;
             line-height: 64.4%;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             font-family: $font-4;
             text-align: start;
             @include xl {
@@ -109,7 +110,7 @@
         & .token {
             border: 1px dashed #FFF;
             display: flex;
-            padding: 12px 12px 12px 16px;
+            padding: 11px 12px 11px 16px;
             align-items: center;
             gap: 24px;
             align-self: stretch;
