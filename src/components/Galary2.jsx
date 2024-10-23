@@ -5,6 +5,11 @@ import { useRef, useState } from 'react';
 import { FaRegCirclePause } from "react-icons/fa6";
 import { BsPlayCircleFill } from "react-icons/bs";
 
+import { BsFillPlayFill } from "react-icons/bs";
+import { FaPause } from "react-icons/fa6";
+
+
+
 export default function Galary() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [showButton, setShowButton] = useState(true);
@@ -52,9 +57,9 @@ export default function Galary() {
               {showButton && (
                 <button
                   onClick={handleVideoPlayPause}
-                  className="absolute border-0 p-0 left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%] bg-transparent z-10 text-white rounded"
+                  className="absolute border-0 p-0 left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%] z-10  rounded-full playBtn"
                 >
-                  {isPlaying ? <FaRegCirclePause /> : <BsPlayCircleFill />}
+                  {isPlaying ? < FaPause/> : <BsFillPlayFill />}
                 </button>
               )}
             </div>

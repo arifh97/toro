@@ -98,6 +98,15 @@ input[type=number] {
         background-color: orange;
         color: $white;
     }
+    @include sm {
+        padding: 16px 38px;
+    }
+}
+
+.playBtn {
+    background-color: rgba(255, 255, 255, 0.30);
+    border: 1px solid #DECDBD;
+    backdrop-filter: blur(4px);
 }
 
 .social {
@@ -110,6 +119,19 @@ input[type=number] {
         background: #BF8E87;
         box-shadow: 3px 3px 0px 0px #141400;
         @include transition;
+        @include md {
+            --size: 60px;
+        }
+        @include sm {
+            --size: 60px;
+        }
+        & svg {
+            @include mmd {
+                --size: 34px;
+                width: var(--size);
+                height: var(--size);
+            }
+        }
         &:hover {
             background-color: orange;
             transform: scale(1.1);

@@ -57,7 +57,7 @@ export default function Social({ className }) {
     },
   ];
   return (
-    <ul className={`social-list flex items-center flex-wrap gap-[18px] ${className}`}>
+    <ul className={`social-list flex items-center flex-wrap gap-2 justify-center md:justify-start md:gap-[18px] ${className}`}>
       {socialIcons.map((item, index) => (
         <li key={index}>
           <a href={item.url} dangerouslySetInnerHTML={{__html:item.icon}} target="_blank" className="social-link flex items-center justify-center ml-1">

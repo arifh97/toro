@@ -38,8 +38,8 @@
             border-radius: 20px;
         }
         @include sm {
-            backdrop-filter: blur(5px);
-            padding: 20px 0;
+            // backdrop-filter: blur(5px);
+            // padding: 20px 0;
         }
         & .p {
             font-family: $font-3;
@@ -53,6 +53,10 @@
             max-width: 540px;
             text-align: start;
             margin-bottom: 34px;
+            @include sm {
+                margin-bottom: 24px;
+                text-align: center;
+            }
         }
         & h1 {
             color: #FFF;
@@ -77,6 +81,7 @@
             @include sm {
                 font-size: 50px;
                 margin-bottom: 20px;
+                text-align: center;
             }
             @include ssm {
                 font-size: 42px;
