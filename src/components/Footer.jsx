@@ -1,6 +1,7 @@
 import { Container, Row, Col } from './Grid'
 import Img from "../assets/img/footer-img.png"
 import Img2 from "../assets/img/footerImg.png"
+import Social from '../components/Social'
 
 export default function Footer() {
   return (
@@ -11,6 +12,7 @@ export default function Footer() {
              <div className="footer-text">
               <img className='w-full  lg:w-[758px] h-8 md:h-10 lg:h-12 '  src={Img} alt="" />
               <p className=' mt-5 lg:mt-12 xl:mt-[100px] mb-4 lg:mb-10 xl:mb-[70px] text-base md:text-lg lg:text-[22px] text-[#848E9C] font-bold !leading-[180%]'>Join the community and lets show the world who really should be leading the cat meta !</p>
+              <Social/>
              </div>
            </Col>
            <Col xs={12} md={5} lg={5} xl={4} xxl={3}>

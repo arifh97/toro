@@ -41,12 +41,26 @@
             backdrop-filter: blur(5px);
             padding: 20px 0;
         }
+        & .p {
+            font-family: $font-3;
+            color: #FFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            // font-family: "Black And White Picture";
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            max-width: 540px;
+            text-align: start;
+        }
         & h1 {
             color: #FFF;
             font-size: 100px;
             font-weight: 400;
             line-height: 64.4%;
             margin-bottom: 40px;
+            font-family: $font-4;
+            text-align: start;
             @include xl {
                 font-size: 75px;
                 margin-bottom: 35px;
@@ -68,14 +82,16 @@
                 margin-bottom: 18px;
             }
         }
-        & p {
+    }
+    & .token {
+        & .token-header {
             color: #FFF;
-            -webkit-text-stroke-width: var(--st, 2px);
-            -webkit-text-stroke-color: #000;
             font-size: 35px;
-            font-weight: 900;
+            font-weight: 400;
             line-height: 140%;
             margin-bottom: 15px;
+            text-align: start;
+            font-family: $font-4;
             @include xl {
                 font-size: 34px;
             }
@@ -88,16 +104,6 @@
             @include sm {
                 font-size: 24px;
                 --st: 1px;
-            }
-        }
-        & span {
-            display: inline-block;
-            height: 37px;
-            width: 338px;
-            border: 1px dashed white;
-            @include sm {
-                max-width: 338px;
-                width: 80%;
             }
         }
     }
