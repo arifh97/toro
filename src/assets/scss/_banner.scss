@@ -106,6 +106,31 @@
                 --st: 1px;
             }
         }
+        & .token {
+            border: 1px dashed #FFF;
+            display: flex;
+            padding: 12px 12px 12px 16px;
+            align-items: center;
+            gap: 24px;
+            align-self: stretch;
+            justify-content: space-between;
+            max-width: 540px;
+            & p {
+                color: #FFF;
+                font-family: $font-3;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 130%;
+                text-transform: uppercase;
+            }
+            & .btn {
+                color: #62281F;
+                font-family: $font-5;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding: 8.5px 23.5px;
+            }
+        }
     }
     & .shape {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 69.27%);
