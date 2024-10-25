@@ -10,7 +10,8 @@ export default function Meet() {
                     <div className="meet-wrap lg:flex gap-7">
                         <div className="meet-content">
                             <div className="title">
-                                <img src={title} className="mx-auto md:mx-0" alt="" />
+                                {/* <img src={title} className="mx-auto md:mx-0" alt="" /> */}
+                                <h2 className="uppercase text-center lg:text-left">MEET TORO</h2>
                             </div>
                             <div className="box">
                                 <p className="text-center md:text-start">Toro Inoue, also known as the Sony Cat, is an iconic character from the Doko Demo Issyo series and the unofficial mascot of Sony Interactive Entertainment in Japan. Known for his quirky personality, Toro has captured the hearts of many with his wide range of expressions, love of dressing in costumes, and relentless pursuit to become human. With a rich history spanning games, shows, and appearances, Toro is now making his boldest move yet—diving into the wild world of meme coins.</p>
