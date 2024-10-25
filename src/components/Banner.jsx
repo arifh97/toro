@@ -9,10 +9,10 @@ export default function Banner() {
             <div className="banner-content text-center">
               <h1>TORO INOUE</h1>
               <p className='p'>Degen Toro Inoue (井上トロ), also known as Toro (トロ) and the Sony Cat, has one wish—to become human. In his latest adventure, he’s embraced his degenerate side on the blockchain, diving into the world of meme coins in a final attempt to achieve his dream.</p>
-              <div className="token">
+              {/* <div className="token">
                 <p className='token-header'>Contracts</p>
                 <Token/>
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>
