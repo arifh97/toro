@@ -1,39 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-@font-face {
-    font-family: 'bleach';
-    src: url(../font/FontBleach.ttf);
-}
-
-@font-face {
-    font-family: 'Satoshi';
-    src: url(../font/Satoshi-Regular.woff);
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Satoshi';
-    src: url(../font/Satoshi-Bold.woff);
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'Satoshi';
-    src: url(../font/Satoshi-Black.woff);
-    font-weight: 900;
-}
-
-@font-face {
-    font-family: "black";
-    src: url(../font/BlackAndWhitePicture-Regular.ttf);
-}
-
-$font-1:'Satoshi';
-$font-2:'bleach';
-$font-3:'black';
-$font-4:"Racing Sans One",
+// @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+// @font-face {
+//     font-family: 'bleach';
+//     src: url(../font/FontBleach.ttf);
+// }
+// @font-face {
+//     font-family: 'Satoshi';
+//     src: url(../font/Satoshi-Regular.woff);
+//     font-weight: 400;
+// }
+// @font-face {
+//     font-family: 'Satoshi';
+//     src: url(../font/Satoshi-Bold.woff);
+//     font-weight: 700;
+// }
+// @font-face {
+//     font-family: 'Satoshi';
+//     src: url(../font/Satoshi-Black.woff);
+//     font-weight: 900;
+// }
+// @font-face {
+//     font-family: "black";
+//     src: url(../font/BlackAndWhitePicture-Regular.ttf);
+// }
+$font-1:"Inter",
 sans-serif;
-$font-5:"Quicksand",
+$font-2:"Inter",
+sans-serif;
+$font-3:"Inter",
+sans-serif;
+$font-4:"Inter",
+sans-serif;
+$font-5:"Inter",
 sans-serif;
 $white:#fff;
 $black:#000;
