@@ -12,7 +12,7 @@ export default function Token({address="12JvSzMuMXH1wjaFyJ6zNwP1JMj2BNxqGxPZdMT4
         }, 3000)
     }
     return (
-        <div className="token relative z-[1] flex items-center">
+        <div className="token relative z-[1] flex items-center rounded-xl">
             <p className="overflow-auto">{token}</p>
             <button onClick={() => copyHandle()} className="bg-transparent p-0 border-0 btn">
                 {copied ? "COPIED" :"COPY"}
