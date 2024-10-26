@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { LuCopy, LuCopyCheck } from "react-icons/lu";
 
-export default function Token({address="12JvSzMuMXH1wjaFyJ6zNwP1JMj2BNxqGxPZdMT4pump"}) {
+export default function Token({address="95Cm7gDac2tg9f9ou4M5QkqgpeEFBqoqeqBWNy7ByaE2"}) {
     const token = address;
     const [copied, setCopied] = useState(false);
     const copyHandle = () => {
